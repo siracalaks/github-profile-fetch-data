@@ -1,0 +1,42 @@
+.navigate-button{
+    background-color: #38b2ac;
+    color: white;
+    border-radius: 0.25rem;
+}
+
+.uinfo-img{
+    width: 350px;
+    border: 4px solid #38b2ac;
+}
+
+.uinfo-text-wrap{
+    line-height: 2.5rem;
+}
+
+.uinfo-text{
+    color:#38b2ac;
+}
+
+.uinfo-visit{
+    background-color: #38b2ac;
+}
+
+.uinfo-button{
+    border-bottom: 1px solid white;
+}
+
+.uinfo-button > button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+#repo-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* grid-template-columns: minmax(0, 1fr); */
+    width: 83.3333%;
+    gap: 1.75rem;
+}

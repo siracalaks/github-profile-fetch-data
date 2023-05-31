@@ -1,0 +1,23 @@
+.repo-wrapper{
+    background-color: #1d1d29;
+}
+
+.repo-link{
+        /* background-color: yellow; */
+        /* text-decoration: underline; */
+        word-wrap: break-word;
+      
+}
+
+.repo-link:hover{
+    text-decoration: underline;
+}
+
+/* .repo-wrap{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
+    width: 83.3333%;
+    gap: 1.75rem;
+} */
